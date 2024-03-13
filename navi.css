@@ -1,0 +1,582 @@
+  *
+  {
+      margin: 0%;
+      padding: 0%;
+      /* overflow-y: hidden; */
+    overflow-x  : hidden;
+
+  }
+  .nav
+  {
+    position: sticky;
+  width: 100% ;
+  background-image: linear-gradient(to top, #ffffff 0%, #e2ebf0 100%);
+  }
+  .navlist
+
+  {
+
+      list-style: none;
+  }
+
+
+  .container
+  {
+    
+
+    display: flex;
+    justify-content: left;
+      height: 100vh;
+      width: 100%;
+      /* background-color: rgb(181, 241, 255); */
+
+  }
+  #charusat
+  {
+      height: 75px
+      
+  }
+  .navlist
+  {
+      display: flex;
+      justify-content: space-between;
+      
+  }
+  #list
+  {
+  
+
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      padding-right: 100px;
+
+      font-size: 30px;
+  }
+  a
+  {
+      text-decoration: none;
+  }
+  a:link {
+      color: rgba(4, 1, 1, 0.955);
+    
+      text-decoration: none;
+    }         
+    a:active {
+      color: rgb(245, 12, 124);
+  }
+    .anime
+    {
+      position: sticky;
+      background: #000;
+      height: 20px;
+    }
+    #move
+    {
+      color: aliceblue;
+      animation-duration: 20s;
+      animation-name: slidein;
+      animation-iteration-count: infinite;
+      animation-direction: normal;  
+      animation-timing-function: linear;
+
+
+    }
+    
+    @keyframes slidein {
+      from {
+        margin-right: 100%;
+        width: 300%;
+      }
+    
+      to {
+        margin-left: 100%;
+        width: 100%;
+      }
+    }
+    .colour
+    {
+      color: #000;
+    }
+    .logout
+    {
+      background-color:rgba(158, 76, 235, 0.957);
+    padding : 10px;
+    border-radius: 10px;
+
+    }
+    #logout1
+    { 
+      font-size: medium;
+      color: #ffffff;
+    }
+
+    .navbar{
+      background-color:#dcdcdc;
+      width: 200px;
+      height: 100%;
+      display: flex;
+    
+      
+    }
+
+    .line3
+    {
+      
+      height: 1.5px;
+      background: #b3b3be;
+      
+
+    }
+    .bi bi-speedometer2
+    {
+      display: flex;
+    
+    }
+    #dash{
+      display: flex;
+      font-size: 22px; 
+    
+    } 
+
+    .align
+    {
+      display: flex;
+      padding-top: 40px;
+      gap: 2px;
+      justify-content:left;
+      justify-content: center;
+    }   
+    #line4
+    {
+      height: 100%;
+      margin-left: 40px;
+      padding-left: 0px ;
+      /* margin-left: 40px ; */
+      background-color:rgba(96, 42, 147, 0.957);
+      width: 4px;
+    }
+    .bi.bi-person-circle:hover {
+      fill:#8b54c6;
+    }
+    #profile
+    {
+      font-size: 25px;
+    }
+    .profile1
+    {
+      display: flex;
+      justify-content: left;
+      gap: 0.5px;
+
+    }
+    .profile
+    {
+      display: flex;
+      
+    }
+    #book
+    {
+      font-size: 23px;
+    }
+    .book1
+    {
+    
+      display: flex;
+      justify-content: left;
+      gap: 0.3px;
+
+    }
+    /* .issuedbook
+    {
+      display:flex;
+      justify-self:flex-start;
+    
+      /* margin-right: 80px;
+      padding-left: 0px ;
+      margin-left: 40px ;  }    */
+      
+      .div
+      {
+        margin-left: 100px;
+      }
+      .div{
+      
+        height: 100%;
+        width: 40px;
+        background-color: #8b54c6;
+
+      }
+      
+      .dashb{
+        /* overflow-y: hidden; */
+      height: 100%;
+      width: 100%;
+      } 
+      
+      
+      /* Hide scrollbar for IE, Edge and Firefox */
+      .dashb{
+
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+      }
+  #color
+  {
+    color: #662ea1; 
+
+  }
+  .box
+  {
+    overflow-y: hidden;
+    border-style: solid;
+    border-width: 1px;
+  background-color:#ffffff;
+    border-color: #6961ab;
+    margin-left: 20px ;
+    height: 150px;
+    width: 170px;
+  }
+
+  .bookpic
+
+  {
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+
+  .bookissued
+  {
+    margin-left: 40px;
+  }
+  .booknumber
+  {
+    margin-left: 75px;
+
+  }
+  .dashs
+  {
+    padding-left: 10px;
+  }
+  .box2
+  {
+    overflow-y: hidden;
+    border-style: solid;
+    border-width: 1px;
+  border-color  :#6961ab;
+    
+    height: 150px;
+    width: 170px;
+  }
+  .container4
+  {
+    overflow-y: hidden;
+    display: flex;
+    gap: 90px;
+    justify-content: left;  
+  }
+  .returned
+  {
+    margin-top: 20px;
+    margin-left: 45px;
+  }
+  .bookreturned
+  {
+    margin-left: 40px;
+  }
+  .bookreturned1
+  {
+    margin-left: 75px;
+
+  }
+  .bookissuedb{
+    margin-top: 500px;
+
+  }
+  .golbal
+
+  {
+    overflow-y: hidden;
+  }
+
+  /* tr:nth-child(even) {background-color: #f2f2f2; */
+
+  .table
+
+  {
+    border-collapse: collapse;
+    margin-left: 100px;
+    padding: 5px;
+    margin-top: 20px;
+    width: 500px;
+
+    }
+
+    th, td {
+      text-align: left;
+      padding: 8px;
+    }
+    boxisseued{
+      margin-left: 40px;
+    }
+    .bookissuedb
+    {
+      margin-left: 10px;
+    }
+
+    .about
+    {
+      margin-top: 500px;
+      margin-left: 10px;
+    }
+    .site-footer
+    {
+      background-color:rgba(75, 29, 118, 0.957);
+      padding:45px 0 20px;
+      
+      font-size:15px;
+      line-height:24px;
+      color:#d4bcff;
+    }
+    .site-footer hr
+    {
+      border-top-color:#bbb;
+      opacity:0.5
+    }
+    .site-footer hr.small
+    {
+      margin:20px 0
+    }
+    .site-footer h6
+    {
+      color:#d4bcff;
+      font-size:16px;
+      text-transform:uppercase;
+      margin-top:5px;
+      letter-spacing:2px
+    }
+    .site-footer a
+    {
+      color:#d4bcff;
+    }
+    .site-footer a:hover
+    {
+      color:#3366cc;
+      text-decoration:none;
+    }
+    .footer-links
+    {
+      padding-left:0;
+      list-style:none
+    }
+    .footer-links li
+    {
+      display:block
+    }
+    .footer-links a
+    {
+      color:#d4bcff
+    }
+    .footer-links a:active,.footer-links a:focus,.footer-links a:hover
+    {
+      color:#3366cc;
+      text-decoration:none;
+    }
+    .footer-links.inline li
+    {
+      display:inline-block
+    }
+    .site-footer .social-icons
+    {
+      text-align:right
+    }
+    .site-footer .social-icons a
+    {
+      width:50px;
+      height:50px;
+      line-height:40px;
+      margin-left:6px;
+      margin-right:0;
+      border-radius:100%;
+      background-color:#cfaeff
+    }
+    .copyright-text
+    {
+      margin:0
+    }
+    @media (max-width:991px)
+    {
+      .site-footer [class^=col-]
+      {
+        margin-bottom:30px
+      }
+    }
+    @media (max-width:767px)
+    {
+      .site-footer
+      {
+        padding-bottom:0
+      }
+      .site-footer .copyright-text,.site-footer .social-icons
+      {
+        text-align:center
+      }
+    }
+    .social-icons
+    {
+      padding-left:0;
+      margin-bottom:0;
+      list-style:none
+    }
+    .social-icons li
+    {
+      display:inline-block;
+      margin-bottom:4px
+    }
+    .social-icons li.title
+    {
+      margin-right:15px;
+      text-transform:uppercase;
+      color:#96a2b2;
+      font-weight:700;
+      font-size:13px
+    }
+    .social-icons a{
+      background-color:#7ad3ff;
+      color:#818a91;
+      font-size:16px;
+      display:inline-block;
+      line-height:44px;
+      width:44px;
+      height:44px;
+      text-align:center;
+      margin-right:8px;
+      border-radius:100%;
+      -webkit-transition:all .2s linear;
+      -o-transition:all .2s linear;
+      transition:all .2s linear
+    }
+    .social-icons a:active,.social-icons a:focus,.social-icons a:hover
+    {
+      color:#000000;
+      background-color:#29aafe
+    }
+    .social-icons.size-sm a
+    {
+      line-height:34px;
+      height:34px;
+      width:34px;
+      font-size:14px
+    }
+    .social-icons a.faebook:hover
+    {
+      background-color:#5decff
+    }
+    .social-icons a.twitter:hover
+    {
+      background-color:#ff85fd
+    }
+    .social-icons a.linkedin:hover
+    { 
+      background-color:#007bb6
+    }
+    .social-icons a.dribbble:hover
+    {
+      background-color:#ea4c89
+    }
+    @media (max-width:767px)
+    {
+      .social-icons li.title
+      {
+        display:block;
+        margin-right:0;
+        font-weight:600
+      }
+    }
+    .profilemain
+    {
+      margin-top:500px;
+      margin-left:10px;
+      padding-left: 0px;
+      
+      
+    }
+
+  .row
+  {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+  }
+
+  
+    #profilemain
+    {
+      margin-top: 50px;
+   
+      height: 150px;
+      width: 150px;
+    }
+    
+    .profilediv
+    {
+      display: flex;
+      justify-content: left;
+    }
+    .atributes
+    {
+      margin-top: 90px;
+      margin-left: 30px;
+    }
+
+.userprofile
+{
+  margin-left: 80px;
+}
+.profile123
+{
+  display: flex;
+  justify-content: left;
+}
+#insta
+{
+  margin-top: 2px;
+  height: 45px;
+  width: 45px;  
+
+}
+.faebook
+{
+  overflow-y: hidden;
+}
+#tweet{
+  margin-top:9px;
+  height:30px;
+  width: 30px;
+}
+.twitter
+{
+  overflow-y: hidden;
+}
+#face
+{
+  margin-top: 4.5px;
+  height: 40px;
+  width: 40px;
+}
+.dribbble
+{
+  overflow-y: hidden;
+}
+#link
+{
+  margin-top: 4.3px;
+  height: 40px;
+  width: 40px;  
+
+}
+.linkedin
+{
+  
+  overflow-y: hidden;
+}
